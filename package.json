@@ -5,7 +5,11 @@
   "dependencies": {
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "redux": "^4.0.4",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "react-router": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,5 +31,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-plugin-transform-react-statements": "^0.7.3",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.1.2"
   }
 }

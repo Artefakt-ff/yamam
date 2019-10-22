@@ -1,0 +1,23 @@
+@import "../../utils/global-variables"
+
+.nav-item
+  margin: 0 20px
+  +transition(0.4s)
+
+  &:hover
+    color: $active
+    +transition(0.4s)
+
+
+.navbar-nav:last-child
+  display: flex
+  align-items: center
+  height: 100%
+
+  i
+    +transition(0.3s)
+    color: $grey
+
+    &:hover
+      +transition(0.3s)
+      color: $active

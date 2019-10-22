@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap");
+@import 'reset.css';
+@import '../third-party/bootstrap.min.css';
+.border-radius {
+  border-radius: 20px;
+}
+
+.shadow {
+  -webkit-box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.3);
+}
+
+.circle-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.text-title {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.text-subtitle {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.text-active {
+  color: #E37A00;
+}
+
+.text-passive {
+  color: #FFDEBE;
+}
+
+.text-grey {
+  color: #979797;
+}
+
+.bg-active {
+  background-color: #E37A00;
+}
+
+.bg-passive {
+  background-color: #FFDEBE;
+}
+
+i {
+  font-size: 1.5em;
+  color: #E37A00;
+  cursor: pointer;
+  transition: 0.4s;
+  -moz-transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+i:hover {
+  color: #FFDEBE;
+}
+
+a {
+  text-decoration: underline;
+  color: #E37A00;
+  transition: 0.4s;
+  -moz-transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+a:hover {
+  text-decoration: none;
+  color: #FFDEBE;
+  transition: 0.4s;
+  -moz-transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+a, div, h1, h2, h3, h4, h5, h6, li {
+  font-family: "Roboto", sans-serif;
+}
+
+.space {
+  height: 10px;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  line-height: 1em;
+}
+
+/*# sourceMappingURL=default.css.map */
